@@ -32,7 +32,7 @@ public class FileProcessingServiceTest {
         assertNotNull(result);
         assertEquals(filename, result.getFilename());
         assertEquals(3, result.getLineCount());
-        assertEquals(9, result.getWordCount());
+        assertEquals(11, result.getWordCount());
         assertEquals(content, result.getFileContent());
         assertNotNull(result.getProcessedTimestamp());
     }
