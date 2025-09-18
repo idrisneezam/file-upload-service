@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5252923c-1717-405c-b33d-1a7ab50feaa2" name="Changes" comment="Updated controller to use the file upload request class" />
+    <list default="true" id="5252923c-1717-405c-b33d-1a7ab50feaa2" name="Changes" comment="modified readme to include assumptions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "idrisneezam"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;idrisneezam&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/idrisneezam/file-upload-service.git",
-    "accountId": "815a3f5a-e7b0-43b2-803b-7ab32401e36a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/idrisneezam/file-upload-service.git&quot;,
+    &quot;accountId&quot;: &quot;815a3f5a-e7b0-43b2-803b-7ab32401e36a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -88,7 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758198449820</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initialized project using spring initializr">
+      <option name="closed" value="true" />
+      <created>1758215116331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758215116331</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modified readme to include assumptions">
+      <option name="closed" value="true" />
+      <created>1758215579836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758215579836</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,6 +115,8 @@
     <MESSAGE value="Implement file upload functionality with processing service and controller" />
     <MESSAGE value="Add file field to FileUploadRequest with validation" />
     <MESSAGE value="Updated controller to use the file upload request class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated controller to use the file upload request class" />
+    <MESSAGE value="initialized project using spring initializr" />
+    <MESSAGE value="modified readme to include assumptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified readme to include assumptions" />
   </component>
 </project>
