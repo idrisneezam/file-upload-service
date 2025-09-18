@@ -83,9 +83,8 @@ curl -X POST -F "file=@test-file.csv" http://localhost:8080/api/files/upload
 
 # Monitoring
 
-The service includes Spring Actuator endpoints:
+The service includes Spring Actuator endpoints GET:
 - `/actuator/health`: Application health check
-- `/actuator/info`: Application information
 - `/actuator/metrics`: Application metrics
 
 # Assumptions
