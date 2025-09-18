@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5252923c-1717-405c-b33d-1a7ab50feaa2" name="Changes" comment="Updated controller to use the file upload request class" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "idrisneezam"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/idrisneezam/file-upload-service.git",
+    "accountId": "815a3f5a-e7b0-43b2-803b-7ab32401e36a"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="32qWyOan0Zw0HTRa6YIdWjfx3EP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/idris/repo/file-upload-service&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5252923c-1717-405c-b33d-1a7ab50feaa2" name="Changes" comment="" />
+      <created>1758148836795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758148836795</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initialized project with using spring intializr">
+      <option name="closed" value="true" />
+      <created>1758149206049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758149206049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add .gitignore and update pom.xml with spring-web dependency">
+      <option name="closed" value="true" />
+      <created>1758198248615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758198248615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement file upload functionality with processing service and controller">
+      <option name="closed" value="true" />
+      <created>1758198305900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758198305900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add file field to FileUploadRequest with validation">
+      <option name="closed" value="true" />
+      <created>1758198449820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758198449820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialized project with using spring intializr" />
+    <MESSAGE value="Add .gitignore and update pom.xml with spring-web dependency" />
+    <MESSAGE value="Implement file upload functionality with processing service and controller" />
+    <MESSAGE value="Add file field to FileUploadRequest with validation" />
+    <MESSAGE value="Updated controller to use the file upload request class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated controller to use the file upload request class" />
+  </component>
+</project>
