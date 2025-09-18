@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.multipart.MaxUploadSizeExceededException;
+import org.springframework.web.multipart.MultipartException;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -63,7 +64,20 @@ public class GlobalExceptionHandler {
             e.getMessage(), 
             HttpStatus.BAD_REQUEST
         );
-        
+
+        return ResponseEntity.badRequest().body(response);
+    }
+
+    @ExceptionHandler(MultipartException.class)
+    public ResponseEntity<Map<String, Object>> handleMultipartException(MultipartException e) {
+        log.warn("Multipart request error: {}", e.getMessage());
+
+        Map<String, Object> response = createErrorResponse(
+            "File upload failed",
+            "Please upload a file",
+            HttpStatus.BAD_REQUEST
+        );
+
         return ResponseEntity.badRequest().body(response);
     }
     
