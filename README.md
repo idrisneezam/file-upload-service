@@ -89,9 +89,8 @@ The service includes Spring Actuator endpoints:
 - `/actuator/metrics`: Application metrics
 
 # Assumptions
-- I will have simple web UI available for users to upload files, and it calls the backend service.
+- I will not have a web UI to upload files, either call the backend service via Postman or with curl.
 - Maximum upload size is 10 MB (configurable in the application properties config file).
-- All uploaded files are treated as UTF-8 encoded.
 - Filenames are sanitized to prevent path traversal and other security issues.
 - A "word" is any sequence of characters separated by whitespace.
 - Duplicate handling: the filename is the primary key; if a filename already exists in the database, the existing record is updated. Upsert will be used for all file uploads.
