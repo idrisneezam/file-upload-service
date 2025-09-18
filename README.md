@@ -67,18 +67,19 @@ curl -X POST -F "file=@test-file.csv" http://localhost:8080/api/files/upload
 
 # Database
 
+- **In-memory storage**: Fast access using ConcurrentHashMap (no external database required)
 - **Concurrent access**: Thread-safe operations using ReadWriteLock
-- **In-memory storage**: Fast access using ConcurrentHashMap
 - **Operations**: Create, Read, Update files only
 - **Upsert logic**: Automatically creates new entries or updates existing ones based on filename
+- **No persistence**: Data is lost when the application restarts (by design for this service)
 
 # Dependencies
 
-- Spring Boot 3.5.5
-- Lombok for reducing boilerplate code
-- Spring Web for REST API
-- Spring Validation for input validation
-- Spring Actuator for monitoring
+- **Spring Boot 3.5.5** - Main framework
+- **Spring Web** - REST API endpoints
+- **Spring Validation** - Input validation
+- **Spring Actuator** - Health checks and monitoring
+- **Lombok** - Reduces boilerplate code
 
 # Monitoring
 
