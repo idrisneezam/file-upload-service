@@ -1,17 +1,20 @@
 package com.autodesk.file_upload_service.service;
 
 import com.autodesk.file_upload_service.domain.FileMetadata;
-import org.springframework.stereotype.Service;
 
-@Service
-public class FileValidationService {
+public interface FileValidationService {
     
-    public void validateFile(FileMetadata fileMetadata) {
-        // TODO: implement file validation logic for edge cases
-    }
+    /**
+     * Validates a file based on its metadata
+     * @param fileMetadata the file metadata to validate
+     * @throws com.autodesk.file_upload_service.exception.FileValidationException if validation fails
+     */
+    void validateFile(FileMetadata fileMetadata);
     
-    public boolean isAllowedFile(String filename) {
-        // TODO: implement allowed file type validation
-        return false;
-    }
+    /**
+     * Checks if a file type is allowed
+     * @param filename the filename to check
+     * @return true if the file type is allowed, false otherwise
+     */
+    boolean isAllowedFile(String filename);
 }
