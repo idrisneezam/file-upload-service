@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5252923c-1717-405c-b33d-1a7ab50feaa2" name="Changes" comment="modified readme to include assumptions">
+    <list default="true" id="5252923c-1717-405c-b33d-1a7ab50feaa2" name="Changes" comment="implement FileUploadService with file processing and database integration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/idris/repo/file-upload-service&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/idris/.m2/repository/file-upload-service",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,8 +107,83 @@
       <option name="project" value="LOCAL" />
       <updated>1758215579836</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added application properties">
+      <option name="closed" value="true" />
+      <created>1758218388282</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758218388282</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added controller endpoint for file uploads">
+      <option name="closed" value="true" />
+      <created>1758218472489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758218472489</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created database service interface and implementation">
+      <option name="closed" value="true" />
+      <created>1758219143193</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758219143193</updated>
+    </task>
+    <task id="LOCAL-00010" summary="defined interfaces for file validation and upload services">
+      <option name="closed" value="true" />
+      <created>1758219440341</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758219440341</updated>
+    </task>
+    <task id="LOCAL-00011" summary="define FileProcessingService interface with method signatures">
+      <option name="closed" value="true" />
+      <created>1758219522684</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758219522684</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add file validation properties and implementation">
+      <option name="closed" value="true" />
+      <created>1758220360053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758220360053</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added file processing service implementation with line and word counting">
+      <option name="closed" value="true" />
+      <created>1758221067425</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1758221067425</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implement FileUploadService with file processing and database integration">
+      <option name="closed" value="true" />
+      <created>1758221634838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758221634838</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized project with using spring intializr" />
@@ -117,6 +193,15 @@
     <MESSAGE value="Updated controller to use the file upload request class" />
     <MESSAGE value="initialized project using spring initializr" />
     <MESSAGE value="modified readme to include assumptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified readme to include assumptions" />
+    <MESSAGE value="added application properties" />
+    <MESSAGE value="added controller endpoint for file uploads" />
+    <MESSAGE value="created database service interface and implementation" />
+    <MESSAGE value="defined interfaces for file validation and upload services" />
+    <MESSAGE value="define FileProcessingService interface with method signatures" />
+    <MESSAGE value="implemented FileValidationService with validation logic" />
+    <MESSAGE value="add file validation properties and implementation" />
+    <MESSAGE value="added file processing service implementation with line and word counting" />
+    <MESSAGE value="implement FileUploadService with file processing and database integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement FileUploadService with file processing and database integration" />
   </component>
 </project>
